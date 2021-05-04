@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.pro-button {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 16px 43px;
+    background: transparent;
+}
+
+.pro-title {
+    font-size: 34px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.pro-fonts {
+    font-size: 14px;
+    color: #868585;
+    line-height: 26px;
+}
+
+/* *************************************** */
+/* header start */
+
+.header {
+    background: url(../img/fon.jpg) no-repeat center center / cover;
+    height: 100vh;
+}
+
+.header__title {
+    color: #fff;
+    font-size: 34px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 35%;
+}
+
+.header__button {
+    margin-top: 107px;
+    border: 1px solid white;
+    color: white;
+}
+
+/* header end */
+/* *************************************** */
+/* about start */
+
+.about {
+    padding: 92px 0 192px;
+}
+
+.about__form {
+    margin-top: 75px;
+}
+
+.about__block-title {
+    font-size: 22px;
+    margin-top: 71px;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+
+.about__block-img {
+    margin-top: 103px;
+}
+
+/* about end */
+/* *************************************** */
+/* portfolio start */
+
+.portfolio {
+    padding: 109px 0;
+    background: #f3f3f3;
+}
+
+.portfolio__title {
+    text-align: center;
+    margin-bottom: 240px;
+}
+
+.portfolio__img {
+    width: 100%;
+    margin-top: 21px;
+}
+
+.portfolio__button {
+    border: 1px solid black;
+    margin-top: 64px;
+}
+
+/* portfolio end */
+/* *************************************** */
+/* partners start */
+
+.partners {
+    background: url(../img/fon.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+    padding: 100px 0 62px;
+}
+
+.partners__title {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 91px;
+}
+
+/* partners end */
+/* *************************************** */
+/* footer start */
+
+.footer {
+    padding: 118px 0 100px;
+    background: #3c3c3c;
+}
+
+.footer__link {
+    font-size: 14px;
+    color: #a4a4a4;
+    margin-left: 21px;
+}
+
+.footer__link:hover {
+    color: #a4a4a4;
+}
+
+.footer__reserve {
+    margin-top: 32px;
+    margin-bottom: -16px;
+    color: #6c6c6c;
+}
+
+@media (max-width: 456px) {
+    .col-s-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 30%;
+    }
+
+    .partners {
+        padding-bottom: 23px;
+    }
+
+    .partners__img {
+        margin-bottom: 50px;
+    }
+
+
+}
